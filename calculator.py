@@ -11,17 +11,17 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-def multiply(a, b):
+def mul(a, b):
     return a * b
 
-def divide(a, b):
-    if b == 0:
+def div(a, b):
+    if a == 0:
         raise ZeroDivisionError("Cannot divide by zero")
-    return a / b
+    return b / a
 
 def logarithm(a, b):
     if a <= 0 or b <= 0:
-        raise ValueError("Logarithm arguments must be positive")
+        raise ValueError("Both arguments must be positive")
     return math.log(b, a)
 
 def exp(a, b):
@@ -29,7 +29,7 @@ def exp(a, b):
 
 def square_root(a):
     if a < 0:
-        raise ValueError("Cannot take square root of a negative number")
+        raise ValueError("Cannot take square root of negative number")
     return math.sqrt(a)
 
 def hypotenuse(a, b):
