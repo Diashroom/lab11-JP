@@ -1,6 +1,7 @@
-# https://github.com/your-username/your-repo-name
-# Partner 1: Your Name
-# Partner 2: Your Name (working alone)
+# https://github.com/Diashroom/lab11-JP.git
+# Partner 1: Jingjing
+# Partner 2: Jingjing
+
 
 import unittest
 from calculator import *
